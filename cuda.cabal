@@ -147,6 +147,7 @@ Library
 
   default-language:     Haskell98
   Extensions:
+  cc-options: -D__GNUC_PREREQ(7, 0)=1
   ghc-options:
       -Wall
       -O2
